@@ -1,0 +1,58 @@
+\documentclass[14pt]{extarticle}
+\usepackage{geometry}
+\usepackage{amsfonts}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+\title{Math109 Week2 Lecture 1}
+\begin{document}
+\maketitle{}
+\section{Proof by contradiction}
+{\bfseries Example 1:}
+\begin{flushleft}
+\vspace{0.3cm}Prove that
+\end{flushleft}
+
+\vspace{0.3cm}\begin{equation}
+78m+102n=11
+\end{equation}
+doesn't have an integer solution.
+\begin{flushleft}
+{\bfseries Solution:}
+\end{flushleft}
+\vspace{0.3cm}Assume by contradiction that there is an integer solution, i.e. that for some $m,n \in \mathbb{Z}, 78m+102n=1$. Since 2 divides 78 and 102, $78m+12n$ is an even number, but 11 is an odd number, a contradiction.
+\begin{flushleft}
+{\bfseries Example 2:}
+\vspace{0.3cm}Prove that
+\end{flushleft}
+\vspace{0.3cm}\begin{equation}
+\sqrt{2}\; is \; irrational.
+\end{equation}
+\vspace{0.3cm}x is rational if there exists $p,q \in  \mathbb{Z}, q \neq 0$, such that $x = \frac{p}{q}$. x is called irrational if it is not rational.
+\begin{flushleft}
+{\bfseries Solution:} 
+\end{flushleft}
+\vspace{0.3cm}Assume by contradiction that there exists $p,q \in \mathbb{Z}, q \neq0$, so that $\sqrt{2} = \frac{p}{q}$  and $\frac{p}{q}$ is an irreducible fraction. 
+
+\vspace{0.3cm}Then:
+\begin{equation}
+\sqrt{2}q=p
+\end{equation}
+\vspace{0.3cm}\begin{equation}
+2q^{2}=p^{2} \; \Rightarrow \;p^{2} \;is\; even\; \Rightarrow\; p \;is\;even.
+\end{equation}
+\vspace{0.3cm}(to be proved). Then there exists $k \in \mathbb{Z}$ so that 
+\begin{equation}
+p=2k \Rightarrow 2q^{2} = 4k^{2} \Rightarrow q\;is\;even.
+\end{equation}
+Thus, since $q,p$ are both even, they are reducible, which is an contradiction.
+\begin{flushleft}
+\vspace{0.3cm}Now let's prove $p^{2} \;is\; even\; \Rightarrow\; p \;is\;even$:
+
+\vspace{0.3cm}...
+\end{flushleft}
+\end{document}
